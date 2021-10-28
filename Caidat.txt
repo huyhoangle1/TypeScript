@@ -1,0 +1,14 @@
+Cài đặt npm packages
+# using yarn
+yarn global add typescript ts-node ts-lib @types/node
+# using npm
+npm i -g typescript ts-node ts-lib @types/node
+Cài đặt unit test
+# using yarn
+yarn add --dev jest typescript ts-jest @types/jest
+yarn ts-jest config:init
+# using npm
+npm install --save-dev jest typescript ts-jest @types/jest
+npx ts-jest config:init
+Khởi tạo file tsconfig.json mặc định
+tsc --init
